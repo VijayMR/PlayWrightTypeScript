@@ -24,5 +24,7 @@ test('Dropdown Using li',async()=>{
         const value=await dropdownlist.nth(i).textContent();
         console.log("The dropdown value is :: ",value);
     }
-    
+
+    await page.screenshot({path:"Dropdown.png"}); //---> screenshot
+
 })
