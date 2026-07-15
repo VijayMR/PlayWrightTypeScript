@@ -20,7 +20,6 @@ test('Dropdown Using li',async()=>{
     
     // for..in should not be used it is used in the iteration of array only..
     
-
     for(let i=0;i<length;i++){
         const value=await dropdownlist.nth(i).textContent();
         console.log("The dropdown value is :: ",value);
