@@ -26,6 +26,8 @@ test('Normal Locators', async () => {
         await loginBtn.click();
     }
 
+    //await page.getByRole('button', { name: 'Add to cart' }).nth(0).click();//--when we have the multiple indexes
+
     await page.locator(" //i[text()=' Logout']").click();
     //await new Promise(()=>{}) //prevent code from exiting
 })
